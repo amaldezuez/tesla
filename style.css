@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color:#171a20;
+    font-family: 'M PLUS 1', sans-serif;
+    padding-top: 0;
+}
+.desktop{
+    display: none;
+}
+    @media (min-width: 1200px) {
+    .desktop{
+    display: initial;
+    }
+}
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 5px 20px;
+    position: fixed;
+    top: 20px;
+    z-index: 2;
+    width: 100%;
+}
+
+a.logo{
+    height:20px;
+    width :100px;
+    color :#fff;
+}
+.Logo {
+    margin-top: 3px;
+    margin-right: -10px;
+}
+header a {
+    color: #fff;
+}
+header nav a {
+    text-decoration: none;
+    padding: 6px 12px;
+    font-weight: 500;
+    font-size: 15px;
+}
+header nav.centre {
+    text-align: center;
+}
+header nav.right {
+    text-align: right;
+    
+}
+section {
+    background-size: cover;
+    background-position: center center;
+}
+section .content {
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 17vh;
+    text-align: center;
+    display: grid;
+    
+}
+section h1 {
+    font-size: 70px;
+    color: #fff;
+    font-weight: 530;
+    letter-spacing: normal;
+}
+section p1{
+    font-weight: 300;
+    color: #fff;
+}
+section a{
+    color: #fff;
+}
+section .buttons a {
+    display: block;
+    background-color: #eee;
+    letter-spacing: 0.1;
+    text-align: center;
+    color: inherit;
+    padding: 10px 70px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 470;
+    background: blur(8px);
+}
+section .buttons {
+    display: grid;
+    row-gap: 30px;
+    margin: 10 50px;
+}
+@media (min-width: 758px) {
+    section .buttons{
+        padding-top: 450px;
+        max-width: 740px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+    }
+}
+section .content p2 {
+    padding-top: 48px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+section .buttons a:nth-child(1) {
+    background-color: #4972fb; 
+}
+
+section .buttons a:nth-child(2) {
+    background-color: #ffffff; 
+    color: #000000;
+}
+.model-x-p {
+    font-weight: 200;
+    font-size: 0.8rem;
+    color: #0d0f15;
+}
+.model-x{
+    color: #0d0f15;
+
+}
+section .content p3{
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #0d0f15;
+}
+.model-x-p4 {
+    padding-top: 27px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+.Material-Icons {
+    color: #eee;
+    padding-left: 4px;
+    margin-left: 3px;
+}
+.Model-s {
+    color: #ffffff;
+}
+.model-s-p {
+    font-weight: 600;
+    font-size: 50px;
+    font-size: 0.8rem;
+    color: #ffffff;
+    text-decoration: underline;
+}
+section .content p5{
+    font-weight: 550;
+    font-size: 1.3rem;
+    color: #0d0f15;
+}
+.model-s-p6 {
+    padding-top: 27px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+.a-tag{
+    color: #000000;
+}
+section .buttons-cybertruck a {
+    display: block;
+    background-color: #eee;
+    letter-spacing: 0.1;
+    text-align: center;
+    color: inherit;
+    padding: 9px 90px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 470;
+    background: blur(8px);
+}
+section .buttons-cybertruck {
+    display: grid;
+    row-gap: 25px;
+    margin: 0 40px;
+}
+@media (min-width: 758px) {
+    section .buttons-cybertruck{
+        padding-top: 480px;
+        max-width: 640px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+}
+section .buttons-cybertruck a:nth-child(1) {
+    background-color: #4972fb; 
+    color: white;
+}
+
+section .buttons-cybertruck a:nth-child(2) {
+    background-color: #161920; 
+    color: #fff;
+}
+.solar-panels {
+    color: #0d0f15;
+}
+.a-tag-solar {
+    color: #0d0f15;
+}
+section .buttons-solarpanel a {
+    display: block;
+    background-color: #4972fb;
+    letter-spacing: 0.1;
+    text-align: center;
+    color: inherit;
+    padding: 9px 90px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 470;
+    background: blur(8px);
+}
+section .buttons-solarpanel {
+    display: grid;
+    row-gap: 25px;
+    margin: 0 40px;
+}
+@media (min-width: 758px) {
+    section .buttons-solarpanel{
+        padding-top: 462px;
+        max-width: 640px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+}
+section .buttons-solarpanel a:nth-child(1) {
+    background-color: #4972fb; 
+    color: white;
+}
+
+section .buttons-solarpanel a:nth-child(2) {
+    background-color: #ffffff; 
+    color: #000000;
+}
+.solar-roof {
+    color: #0d0f15;
+}
+section .buttons-Accessories a {
+    display: block;
+    background-color: #eee;
+    letter-spacing: 0.1;
+    text-align: center;
+    color: inherit;
+    padding: 9px 100px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 470;
+    background: blur(8px);
+}
+@media (min-width: 758px) {
+    section .buttons-Accessories{
+        padding-top: 472px;
+        max-width: 640px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+}
+section .buttons-Accessories a:nth-child(1) {
+    background-color: #4972fb;
+    color: white;
+}
+.about {
+    text-align: center;
+    font-size: 13;
+    font-weight: 500;
+    padding-top: 60px;
+}
+.about a{
+    text-decoration: none;
+    padding-top: 50px;
+    font-weight: 450;
+    font-size: 13px;
+    color: #ffffff;
+}
+.footer{
+    text-align: center;
+    padding-top: 3%;
+    scroll-behavior: smooth;
+    
+}
